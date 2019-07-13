@@ -55,4 +55,8 @@ class UsersTest extends \yii\db\ActiveRecord
     {
         return $this->hasMany(Post::className(), ['user_id' => 'id']);
     }
+
+    public function getEmail(){
+        return $this->email;
+    }
 }

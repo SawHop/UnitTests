@@ -14,4 +14,7 @@ use yii\test\ActiveFixture;
 class UserFixture extends ActiveFixture
 {
     public $modelClass = 'app\models\UsersTest';
+//    public $depends = [
+//        'app\tests\PostFixture'
+//    ];
 }

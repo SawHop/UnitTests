@@ -7,11 +7,11 @@
  */
 
 return [
-    'qwe' => [
+    'first' => [
         'id' => '1',
         'email' => 'admin@test',
     ],
-    'asd' => [
+    'second' => [
         'id' => '2',
         'email' => 'manager@test',
     ],
